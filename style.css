@@ -9,15 +9,15 @@
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
 body { background: var(--branco); color: var(--preto); line-height: 1.6; }
 
-/* Navbar */
+
 .navbar { display: flex; justify-content: space-between; padding: 30px 10%; align-items: center; position: sticky; top: 0; background: rgba(255,255,255,0.9); backdrop-filter: blur(10px); z-index: 100; }
 .logo { font-size: 1.5rem; font-weight: 800; }
 .logo span { color: var(--azul); }
 .links a { text-decoration: none; color: var(--preto); margin-left: 30px; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
 .links a:hover { color: var(--azul); }
 
-/* Hero */
-.hero { padding: 100px 10% 80px; text-align: center; }
+
+.hero { padding: 100px 10% 60px; text-align: center; }
 .hero-content h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 20px; letter-spacing: -1px; }
 .hero-content h1 span { display: block; color: var(--cinza-texto); }
 .hero-content p { font-size: 1.2rem; color: var(--cinza-texto); max-width: 700px; margin: 0 auto 40px; }
@@ -27,12 +27,12 @@ body { background: var(--branco); color: var(--preto); line-height: 1.6; }
 .cta-secundario { border: 1px solid #ddd; color: var(--preto); padding: 16px 32px; border-radius: 12px; text-decoration: none; font-weight: 600; transition: 0.3s; }
 .cta-principal:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
 
-/* Sobre Mim */
+
 .sobre { padding: 60px 10%; text-align: center; }
 .container-menor { max-width: 800px; margin: 0 auto; }
 .sobre p { font-size: 1.1rem; color: var(--cinza-texto); }
 
-/* Projetos */
+
 .projetos { padding: 80px 10%; background: var(--cinza-claro); }
 .titulo-sessao { font-size: 2rem; margin-bottom: 50px; font-weight: 800; text-align: center; }
 .grid-projetos { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
@@ -48,7 +48,7 @@ body { background: var(--branco); color: var(--preto); line-height: 1.6; }
 .tags span { font-size: 0.7rem; font-weight: 700; background: #f0f0f0; padding: 5px 12px; border-radius: 50px; text-transform: uppercase; }
 .projeto-link { color: var(--azul); text-decoration: none; font-weight: 700; font-size: 0.9rem; }
 
-/* Footer */
+
 footer { padding: 80px 10% 40px; text-align: center; }
 .contatos-lista { display: flex; justify-content: center; gap: 30px; margin: 30px 0; }
 .contatos-lista a { text-decoration: none; color: var(--preto); font-weight: 700; transition: 0.3s; font-size: 0.9rem; }
