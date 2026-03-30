@@ -14,7 +14,7 @@ body { background: var(--branco); color: var(--preto); line-height: 1.6; }
 .logo span { color: var(--azul); }
 .links a { text-decoration: none; color: var(--preto); margin-left: 30px; font-weight: 600; font-size: 0.9rem; }
 
-.hero { padding: 100px 10% 80px; text-align: center; }
+.hero { padding: 100px 10% 60px; text-align: center; }
 .hero-content h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 20px; }
 .hero-content h1 span { display: block; color: var(--cinza-texto); }
 .hero-content p { font-size: 1.2rem; color: var(--cinza-texto); max-width: 700px; margin: 0 auto 40px; }
