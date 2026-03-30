@@ -25,7 +25,6 @@ body { background: var(--branco); color: var(--preto); }
 .hero-btns { display: flex; gap: 20px; justify-content: center; }
 .cta-principal { background: var(--preto); color: #fff; padding: 18px 35px; border-radius: 12px; text-decoration: none; font-weight: 600; transition: 0.3s; }
 .cta-secundario { border: 2px solid #eee; color: var(--preto); padding: 18px 35px; border-radius: 12px; text-decoration: none; font-weight: 600; transition: 0.3s; }
-.cta-principal:hover { transform: translateY(-5px); opacity: 0.9; }
 
 /* Projetos */
 .projetos { padding: 100px 10%; background: var(--cinza-claro); }
@@ -44,19 +43,8 @@ body { background: var(--branco); color: var(--preto); }
 .tags span { font-size: 0.75rem; font-weight: 700; background: #eee; padding: 6px 14px; border-radius: 50px; }
 .projeto-link { color: var(--azul); text-decoration: none; font-weight: 700; }
 
-/* Card Em Breve */
-.placeholder { border: 2px dashed #ccc; background: none; display: flex; align-items: center; justify-content: center; text-align: center; }
-.placeholder:hover { transform: none; box-shadow: none; }
-
 /* Footer */
 footer { padding: 120px 10% 60px; text-align: center; }
-footer h2 { font-size: 2.8rem; margin-bottom: 40px; }
 .contatos-lista { display: flex; justify-content: center; gap: 40px; margin-bottom: 50px; }
-.contatos-lista a { text-decoration: none; color: var(--preto); font-weight: 700; border-bottom: 2px solid transparent; transition: 0.3s; }
-.contatos-lista a:hover { border-color: var(--preto); }
-.copy { font-size: 0.8rem; color: #aaa; }
-
-@media (max-width: 768px) {
-    .hero-content h1 { font-size: 2.8rem; }
-    .grid-projetos { grid-template-columns: 1fr; }
-}
+.contatos-lista a { text-decoration: none; color: var(--preto); font-weight: 700; transition: 0.3s; }
+.contatos-lista a:hover { color: var(--azul); }
